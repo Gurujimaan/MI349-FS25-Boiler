@@ -108,3 +108,28 @@ h1 strong {
 img.about {
     opacity: 0.5;
 }
+
+.Phone-photo{
+    height:500px;
+    transform: rotate(-90deg);
+    box-shadow: -6px 12px 8px rgba(0,0,0,0.4);
+    display: block;       
+    margin: 0 auto;  
+    margin-top:0px; 
+}
+
+.Bracelet-photo{
+    height:250px;
+    box-shadow: 6px 12px 8px rgba(0,0,0,0.4);
+    display: block;       
+    margin: 0 auto; 
+}
+
+.Wallet-photo{
+    height:500px;
+    transform: rotate(-90deg);
+    box-shadow: -6px 12px 8px rgba(0,0,0,0.4);
+    display: block;       
+    margin: 0 auto; 
+    margin-right:0px; 
+}
