@@ -33,9 +33,27 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+.item a img{
+    width:20%;
+    height:auto;
+}
+
 h1 {
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: -2px;
+}
+
+h3{
+    font-weight: normal;
+    color: #EAE8FF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+p{
+    font-size: 0.9em;
+    line-height: 1.6em;
+    color: #EAE8FF;
 }
 
 h1 strong {
