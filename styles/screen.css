@@ -98,7 +98,7 @@ h1 {
     text-align:center;
 }
 
-h1 strong {
+h1 strong, h2 strong {
     background: rgb(34,193,195);
     background: linear-gradient(45deg, rgb(34, 195, 163) 0%, rgb(253, 142, 45)100%);
     -webkit-background-clip: text;
@@ -109,27 +109,42 @@ img.about {
     opacity: 0.5;
 }
 
-.Phone-photo{
+.item-page {
+    display: flex;                 
+    align-items: center;          
+    gap: 30px;                 
+    margin: 40px auto;         
+}
+
+.Wallet-photo, .Phone-photo {
     height:500px;
-    transform: rotate(-90deg);
-    box-shadow: -6px 12px 8px rgba(0,0,0,0.4);
+    box-shadow: 6px 12px 8px rgba(0,0,0,0.4);
     display: block;       
-    margin: 0 auto;  
-    margin-top:0px; 
+    margin: 0 auto 50px auto;
+    margin-top:60px;
+    border-radius:5px;
 }
 
 .Bracelet-photo{
     height:250px;
     box-shadow: 6px 12px 8px rgba(0,0,0,0.4);
     display: block;       
-    margin: 0 auto; 
+    margin: 0px auto 100px auto;
+    margin-top:60px;
+    border-radius:5px;
 }
 
-.Wallet-photo{
-    height:500px;
-    transform: rotate(-90deg);
-    box-shadow: -6px 12px 8px rgba(0,0,0,0.4);
-    display: block;       
-    margin: 0 auto; 
-    margin-right:0px; 
+
+.item-text {
+    width:800px;
+    display: flex;
+    flex-direction: column;       
+    justify-content: center;   
+    margin-right:150px;  
 }
+
+p{
+    font-weight:normal;
+}
+
+
